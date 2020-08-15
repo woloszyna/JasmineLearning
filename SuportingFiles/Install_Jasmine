@@ -1,0 +1,9 @@
+1. Download and install NodeJs with npm
+    Verify by typing npm -v in terminal
+    
+2. Using npm install Jasmine
+    npm install -g jasmine
+    verify: type jasmine
+
+3. Initialise jasmine project by typing: jasmine init
+    Expect spec folder to be created

@@ -1,0 +1,33 @@
+1. Write a test using Jasmine
+    All tests are written inside of the spec folder (Initialise jasmine project by typing: jasmine init (expect spec folder to be created))
+
+2. Create a first jasmine test by creating a following file (touch): touch test.spec.js within the spec folder
+        
+        WHY xxx.spec.js? When Jasmine is looking for test files, it identifies them by the .spec.js in the filename.
+        If the .spec.js does not exist as part of the file, Jasmine will ignore it :)
+
+        The super basic content of the xxx.spec.js
+
+        describe('hello world', function () {
+        it('hello test', function () {
+        });
+    });
+
+3. Run Tests in Jasmine
+    Go back to the root directory
+    type: jasmine and press enter
+
+    EXPECTED:
+
+    IEDUBM4046103A:JasmineProject albert.woloszyn$ jasmine
+    Randomized with seed 00494
+    ComputerName:JasmineProject albert.woloszyn$ jasmine
+    Randomized with seed 00494
+    Started
+    .
+
+
+    1 spec, 0 failures
+    Finished in 0.035 seconds
+    Randomized with seed 00494 (jasmine --random=true --seed=00494)
+    ComputerName:JasmineProject albert.woloszyn$ 
